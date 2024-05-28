@@ -8,11 +8,11 @@ const DenominationItem = props => {
   const onChooseDenomination = () => onChangeBalance(id)
 
   return (
-    <div>
+    <li>
       <button type="button" className="btn" onClick={onChooseDenomination}>
         {value}
       </button>
-    </div>
+    </li>
   )
 }
 
