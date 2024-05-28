@@ -1,0 +1,16 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.btn {
+  border-radius: 5px;
+  border-color: #c4c4c4;
+  background-color: #382f5a;
+  color: #c4c4c4;
+  padding: 8px;
+  width: 35vw;
+  margin-left: 20px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+}

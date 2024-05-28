@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.withdrawal-container {
+  background-color: #150b3e;
+  border-radius: 12px;
+  padding: 20px;
+}
+.profile-container {
+  display: flex;
+  width: 70vw;
+}
+.profile-round {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  border-radius: 50%;
+  text-align: center;
+  border-color: #c7d2fe;
+  display: flex;
+  height: 13vh;
+  width: 8vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.profile-letter {
+  color: #7c3aed;
+  font-family: 'Roboto';
+}
+.profile-name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 20px;
+}
+.your-balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+}
+.your-balance-heading {
+  font-family: 'Roboto';
+  color: #585076;
+  font-weight: 500;
+}
+.balance-container {
+  display: flex;
+  flex-direction: column;
+}
+.two-thousand {
+  color: #d4d2db;
+  font-family: 'Roboto';
+}
+.in-rupees {
+  font-family: 'Roboto';
+  color: #585076;
+}
+.withdraw-heading {
+  font-family: 'Roboto';
+  color: #d4d2db;
+  font-weight: 500;
+}
+.choose-sum-heading {
+  font-size: 18px;
+  color: #585076;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
