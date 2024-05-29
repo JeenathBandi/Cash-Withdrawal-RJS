@@ -1,4 +1,5 @@
 // Write your code here
+// Write your code here
 import './index.css'
 import {Component} from 'react'
 import DenominationItem from '../DenominationItem/index'
@@ -40,6 +41,7 @@ class CashWithdrawal extends Component {
           <ul className="button-container">
             {denominationsList.map(eachValue => (
               <DenominationItem
+                key={eachValue.id}
                 denominationsList={eachValue}
                 id={eachValue.id}
                 onChangeBalance={this.onChangeBalance}
@@ -53,3 +55,4 @@ class CashWithdrawal extends Component {
 }
 
 export default CashWithdrawal
+
