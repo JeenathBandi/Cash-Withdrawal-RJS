@@ -1,9 +1,10 @@
 // Write your code here
+// Write your code here
 import './index.css'
 
 const DenominationItem = props => {
-  const {denominationsList, id, onChangeBalance} = props
-  const {value} = denominationsList
+  const {denominationsList, key, onChangeBalance} = props
+  const {value, id} = denominationsList
 
   const onChooseDenomination = () => onChangeBalance(id)
 
@@ -17,3 +18,4 @@ const DenominationItem = props => {
 }
 
 export default DenominationItem
+
